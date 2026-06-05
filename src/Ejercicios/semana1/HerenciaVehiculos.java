@@ -127,6 +127,7 @@ public class HerenciaVehiculos {
             v.detener();
             System.out.println();
         }
+        
 
         // TODO: Contar por tipo usando instanceof
         int autos = 0, motos = 0, electricos = 0;
