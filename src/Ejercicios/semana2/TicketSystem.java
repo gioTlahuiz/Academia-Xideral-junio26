@@ -23,7 +23,7 @@ enum Priority {
     public String getLabel() {
         // TODO: retornar "NOMBRE (Nivel X, Respuesta: Yh)"
         return String.format("%s (Nivel %d, Respuesta: %dh)",
-                "Nombre",level,responseTimeHours);
+                this.name(),level,responseTimeHours);
     }
 }
 
