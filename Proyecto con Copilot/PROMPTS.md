@@ -119,3 +119,26 @@ Actualiza el Archivo PROMPTS.md con la instruccion pasada y la respuesta que me 
 ```
 Listo, ya actualicé `Proyecto con Copilot\PROMPTS.md` con la instrucción pasada y la respuesta que te devolví.
 ```
+
+# Prompt anterior
+
+```
+continuando con el proyecto necesito lo siguiente: package com.academia.batch.processor; // Processor que implementa ItemProcessor<Estudiante, EstudianteReporte>.
+import
+ sean de
+// Convierte un Estudiante en un EstudianteReporte copiando nombre, grupo y promedio,
+// y asigna estado "APROBADO" si el promedio es >= 70, o "REPROBADO" si es menor.
+// Loguea "Step 2 - Reporte: {reporte}" y devuelve el reporte.
+```
+
+# Respuesta
+
+```
+Listo: ya quedó creado `com.academia.batch.processor.EstudianteReporteProcessor` en:
+
+`Proyecto con Copilot\src\main\java\com\academia\batch\processor\EstudianteReporteProcessor.java`
+
+Implementa `ItemProcessor<Estudiante, EstudianteReporte>`, convierte `Estudiante` a `EstudianteReporte` copiando `nombre`, `grupo` y `promedio`, asigna `estado` como "APROBADO" (`>= 70`) o "REPROBADO" (`< 70`), y registra el log:
+
+`Step 2 - Reporte: {reporte}`
+```
