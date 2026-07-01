@@ -107,3 +107,15 @@ lo asigna con `setPromedio`, registra el log SLF4J:
 
 y devuelve el estudiante.
 ```
+
+# Prompt anterior
+
+```
+Actualiza el Archivo PROMPTS.md con la instruccion pasada y la respuesta que me devolviste
+```
+
+# Respuesta
+
+```
+Listo, ya actualicé `Proyecto con Copilot\PROMPTS.md` con la instrucción pasada y la respuesta que te devolví.
+```
