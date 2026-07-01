@@ -1,1 +1,2 @@
 com\academia\batch\model\Estudiante.class
+com\academia\batch\processor\EstudianteProcessor.class

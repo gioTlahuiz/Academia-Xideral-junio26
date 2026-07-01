@@ -79,3 +79,31 @@ Listo: ya generé `Proyecto con Copilot\src\main\java\com\academia\batch\model\E
 - Getters y setters de todos los campos
 - `toString()` mostrando `nombre`, `grupo` y `promedio`
 ```
+
+# Prompt anterior
+
+```
+Ahora vamos a crear una nueva clase dentro de processor con las siguientes caracteristicas:package com.academia.batch.processor;
+// Processor de Spring Batch que implementa ItemProcessor<Estudiante, Estudiante>.
+// En el metodo process: calcula el promedio como (nota1 + nota2 + nota3) / 3,
+// asigna el promedio al estudiante con setPromedio, registra un log con SLF4J
+// "Step 1 - Procesando: {estudiante}" y devuelve el estudiante. asegurate de calcular bien el promedio y asegurate de que la division /3 sea double, no enterea
+```
+
+# Respuesta
+
+```
+Listo: ya creé `com.academia.batch.processor.EstudianteProcessor` en:
+
+`Proyecto con Copilot\src\main\java\com\academia\batch\processor\EstudianteProcessor.java`
+
+Implementa `ItemProcessor<Estudiante, Estudiante>`, calcula el promedio como:
+
+`(nota1 + nota2 + nota3) / 3.0d`
+
+lo asigna con `setPromedio`, registra el log SLF4J:
+
+`Step 1 - Procesando: {estudiante}`
+
+y devuelve el estudiante.
+```
