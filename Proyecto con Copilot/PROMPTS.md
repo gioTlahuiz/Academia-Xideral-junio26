@@ -33,3 +33,28 @@ Listo. Ya quedaron creados en `Proyecto con Copilot\src\main\java` estos paquete
 - `com.academia.batch.processor`
 - `com.academia.batch.config`
 ```
+
+# Prompt anterior
+
+```
+Genera un pom.xml para un proyecto Spring Boot 3.2.2 con mi version de java y estas dependencias:
+spring-boot-starter-batch, mysql-connector-j (scope runtime), spring-boot-starter-data-mongodb, spring
+boot-starter-web, spring-boot-starter-data-jpa y spring-boot-starter-test (scope test). groupId
+com.academia, artifactId spring-batch-final-calificaciones, versión 1.0.0. Incluye el spring-boot-maven
+plugin.
+```
+
+# Respuesta
+
+```
+Listo: ya generé `Proyecto con Copilot\pom.xml` con Spring Boot 3.2.2, Java 23 (tu versión), y estas dependencias:
+
+- `spring-boot-starter-batch`
+- `mysql-connector-j` (`runtime`)
+- `spring-boot-starter-data-mongodb`
+- `spring-boot-starter-web`
+- `spring-boot-starter-data-jpa`
+- `spring-boot-starter-test` (`test`)
+
+También incluí el `spring-boot-maven-plugin`.
+```
