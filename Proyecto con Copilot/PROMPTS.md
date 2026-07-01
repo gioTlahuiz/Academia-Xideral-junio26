@@ -58,3 +58,24 @@ Listo: ya generé `Proyecto con Copilot\pom.xml` con Spring Boot 3.2.2, Java 23 
 
 También incluí el `spring-boot-maven-plugin`.
 ```
+
+# Prompt anterior
+
+```
+ahora necesito que generes el modelo Estudiante con las siguientes caracteristicas:package com.academia.batch.model;// Clase modelo Estudiante con los campos: nombre (String), grupo (String),
+// nota1, nota2, nota3 y promedio (todos double).
+// Incluye constructor vacio, getters y setters de todos los campos,
+// y un toString que muestre nombre, grupo y promedio.
+```
+
+# Respuesta
+
+```
+Listo: ya generé `Proyecto con Copilot\src\main\java\com\academia\batch\model\Estudiante.java` con:
+
+- `package com.academia.batch.model;`
+- Campos: `nombre`, `grupo`, `nota1`, `nota2`, `nota3`, `promedio`
+- Constructor vacío
+- Getters y setters de todos los campos
+- `toString()` mostrando `nombre`, `grupo` y `promedio`
+```
